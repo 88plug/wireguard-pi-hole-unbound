@@ -1,4 +1,4 @@
-# Wireguard - Pi-hole - Unbound: All-In-One Network Security and Privacy Solution
+# Wireguard - Pi-hole - Unbound: Root Server Edition
 
 ## Overview
 
