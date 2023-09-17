@@ -38,7 +38,7 @@ This repository provides an all-in-one solution for network security and privacy
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd Pi-hole-Unbound-WG-Easy
+    cd wireguard-pi-hole-unbound
     ```
 
 3. **Update Essential Variables**
