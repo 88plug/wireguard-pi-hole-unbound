@@ -59,6 +59,7 @@ This repository provides an all-in-one solution for network security and privacy
 ### Configuration
 
 Access the Pi-hole web panel at http://<host_ip>:80.
+Access the WG-Easy web panel at http://<host_ip>:51821.
 
 #### Pi-hole and Unbound
 
