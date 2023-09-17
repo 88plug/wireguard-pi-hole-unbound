@@ -55,7 +55,16 @@ This repository provides an all-in-one solution for network security and privacy
     cd Pi-hole-Unbound-WG-Easy
     ```
 
-3. **Deploy the Services**
+3. **Update Essential Variables**
+
+    Before deploying the services, you must update the following essential environment variables in the `docker-compose.yml` file:
+
+    - **WG_HOST**: Replace with your public IP address.
+    - **PASSWORD**: Replace with a secure password.
+    - **TZ**: Timezone for the Pi-hole container. Use the "Area/Location" format (e.g., `America/New_York`, `Europe/London`, `Asia/Tokyo`, `Australia/Sydney`, `Africa/Johannesburg`, or `UTC`).
+    - **WEBPASSWORD**: Password for accessing the Pi-hole web interface.
+
+4. **Deploy the Services**
 
     ```bash
     docker-compose up -d
