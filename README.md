@@ -58,6 +58,8 @@ This repository provides an all-in-one solution for network security and privacy
 
 ### Configuration
 
+Access the Pi-hole web panel at http://<host_ip>:80.
+
 #### Pi-hole and Unbound
 
 Both are bundled in a single container. Configuration files for Pi-hole are located in the Docker volume `etc_pihole-unbound`. Pi-hole's web interface can be accessed via port 80 or 443, and it listens for DNS queries on port 53.
