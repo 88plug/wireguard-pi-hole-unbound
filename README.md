@@ -10,13 +10,8 @@ This repository provides an all-in-one solution for network security and privacy
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
 4. [Getting Started](#getting-started)
-    1. [Essential Variables](#essential-variables)
-    2. [Installation](#installation)
-    3. [Configuration](#configuration)
-5. [Troubleshooting](#troubleshooting)
-6. [License](#license)
-7. [Acknowledgments](#acknowledgments)
-8. [Contact Information](#contact-information)
+    1. [Installation](#installation)
+    2. [Configuration](#configuration)
 
 ## Features
 
@@ -32,21 +27,12 @@ This repository provides an all-in-one solution for network security and privacy
 
 ## Getting Started
 
-### Essential Variables
-
-**Before deploying the services, you must update the following essential environment variables in the `docker-compose.yml` file:**
-
-- **WG_HOST**: Replace with your public IP address.
-- **PASSWORD**: Replace with a secure password.
-- **TZ**: Timezone for the Pi-hole container. Use the "Area/Location" format (e.g., `America/New_York`, `Europe/London`, `Asia/Tokyo`, `Australia/Sydney`, `Africa/Johannesburg`, or `UTC`).
-- **WEBPASSWORD**: Password for accessing the Pi-hole web interface.
-
 ### Installation
 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/YourUsername/Pi-hole-Unbound-WG-Easy.git
+    git clone https://github.com/wireguard-pi-hole-unbound
     ```
 
 2. **Navigate to the Project Directory**
@@ -79,31 +65,3 @@ Both are bundled in a single container. Configuration files for Pi-hole are loca
 #### WG-Easy
 
 Configuration files for WG-Easy can be found under `~/.wg-easy`.
-
-## Troubleshooting
-
-- **View Docker Logs**
-
-    ```bash
-    docker logs <container_name>
-    ```
-
-- **Stop and Remove Containers**
-
-    ```bash
-    docker-compose down
-    ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Pi-hole Team
-- Unbound Contributors
-- WireGuard and WG-Easy Contributors
-
-## Contact Information
-
-For more information, feel free to contact us at [youremail@example.com](mailto:youremail@example.com).
